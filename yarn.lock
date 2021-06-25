@@ -89,6 +89,20 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.0.tgz#f3933a44e365864f4dad5db94158106d511e8131"
   integrity sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
 
+"@lauf/store-react@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@lauf/store-react/-/store-react-0.1.2.tgz#eb4b0b9b279de16b306471df4368d7adc2a9e93d"
+  integrity sha512-H7UcsEsnN35ei8WBIvUCsOevlcZF1V3Ufxu9yXIsDxDbYBgvKdJVVtvIuje2xyCqdNnBHipOphGdAsZ5Br7FUw==
+  dependencies:
+    "@lauf/store" "^0.1.2"
+
+"@lauf/store@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@lauf/store/-/store-0.1.2.tgz#24dbff819d40553f1ed615faf9ef405348469106"
+  integrity sha512-3Qh2wyWtI/DJdElRDKQe3aCKK8rgD1TQIGXwZR9CKKtvAxyTF8dsvGdsOSaGN3QGQhv7FC4SoLoKSDyzBjrlFA==
+  dependencies:
+    immer "^8.0.1"
+
 "@next/env@11.0.0":
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-11.0.0.tgz#bdd306a45e88ba3e4e7a36aa91806f6486bb61d0"
@@ -1488,6 +1502,11 @@ image-size@1.0.0:
   integrity sha512-JLJ6OwBfO1KcA+TvJT+v8gbE6iWbj24LyDNFgFEN0lzegn6cC6a/p3NIDaepMsJjQjlUWqIC7wJv8lBFxPNjcw==
   dependencies:
     queue "6.0.2"
+
+immer@^8.0.1:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-8.0.4.tgz#3a21605a4e2dded852fb2afd208ad50969737b7a"
+  integrity sha512-jMfL18P+/6P6epANRvRk6q8t+3gGhqsJ9EuJ25AXE+9bNTYtssvzeYbEd0mXRYWCmmXSIbnlpz6vd6iJlmGGGQ==
 
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"
